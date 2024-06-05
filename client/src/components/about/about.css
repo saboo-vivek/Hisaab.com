@@ -1,0 +1,33 @@
+
+
+
+
+
+.about {
+    background-image: url('./shopping-bag-cart.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    background-color: rgba(255, 255, 255, 0.81);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.about-content h2 {
+    margin-bottom: 20px;
+    color: #333; /* Adjust text color as needed */
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555; /* Adjust text color as needed */
+}

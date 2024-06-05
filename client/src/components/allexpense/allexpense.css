@@ -1,0 +1,128 @@
+.expensemain {
+   background-image: url("exp9.jpg");
+   background-size: cover;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+
+   /* position: absolute; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.expHead{
+   margin:15px;
+   padding:1rem;
+   background-color: #878684a1;
+   border-radius: 5px;
+   font-weight: bolder;
+}
+
+.popform {
+   /* position: absolute; */
+   margin-top: 3rem;
+   width: 80%; /* Adjust width to fit within the container */
+   max-width: 50rem;
+   /* top:5%; */
+   border: #abbcce solid;
+   padding: 2rem;
+   background-color: #abbcce8f;
+   border-radius: 13px;
+}
+
+.listclass {
+   /* position: relative; */
+
+   width: 90%; 
+   margin-top: 2rem;
+   border: #a0aab5 solid;
+   border-radius: 20px;
+   overflow: scroll;
+   height: 35rem;
+}
+.listclass::-webkit-scrollbar {
+   display: none;
+}
+
+.popform label {
+   display: block;
+   margin-bottom: 6px;
+}
+
+.popform input,
+.popform select {
+   width: calc(100% - 16px); /* Adjust input width to account for padding */
+   padding: 8px;
+   margin-bottom: 5px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}
+
+.popform button {
+   width: calc(100% - 16px);
+   padding: 5px;
+   border: none;
+   border-radius: 5px;
+   background-color: #007bff;
+   color: #fff;
+   cursor: pointer;
+}
+
+.popform button:hover {
+   background-color: #0056b3;
+}
+
+.expense-list .ebtn {
+   cursor: pointer;
+   /* position: absolute; */
+   right: 5%;
+}
+
+.dbtn {
+   cursor: pointer;
+   position: absolute;
+   right: 40%;
+}
+
+.totalexpense {
+   position: relative;
+   left: 40%;
+}
+
+.expense-list {
+   list-style: none;
+   padding: 0;
+   margin: 20px 0;
+}
+
+.expense-list li {
+   background-color: #b8b7b4a3;
+   padding: 10px;
+   border-radius: 5px;
+   margin-bottom: 10px;
+
+   margin: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.expense-list li p {
+   font-weight: bold;
+   
+}
+
+.ebtn:hover {
+   background-color: rgb(234, 234, 244);
+}
+
+.downDIV{
+   margin-top: 5rem;
+   display:flex;
+   justify-content: space-around;
+}
+.downloadBTN{
+   margin-left: 2rem;
+}

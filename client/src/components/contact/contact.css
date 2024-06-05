@@ -1,0 +1,47 @@
+.cbody {
+   background-image: url("./black-friday-concept-with-cart-basket.jpg");
+   background-size: cover;
+   height: 100vh;
+}
+
+.background-image {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+
+.contact-form {
+   border: 1px solid #ccc;
+   padding: 20px;
+   border-radius: 10px;
+   height: 45vh;
+}
+
+.container {
+   padding-top: 10px; /* Adjust this value as needed */
+}
+
+.contact-form h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.form-control {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #0304065b; /* Gray border */
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+textarea.form-control {
+   height: 150px; /* Adjust textarea height as needed */
+}
+
+.contactButton {
+   width: 100%;
+   border-radius: 5px;
+}
